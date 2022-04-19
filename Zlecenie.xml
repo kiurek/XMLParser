@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document_data>
+  <company_address>
+    <form_of_address />
+    <first_name />
+    <name>WND Sp. z.o.o.</name>
+    <additional />
+    <additional_2>Rabién</additional_2>
+    <street>Sucha 1/3</street>
+    <postbox />
+    <postcode>PL-95070</postcode>
+    <postcode_address />
+    <city>Aleksandrów Łódzki</city>
+    <salutation />
+    <country>POL</country>
+    <it_contact_list />
+  </company_address>
+  <ordering_informations>
+  </ordering_informations>
+  <order_remark_mawi>
+  </order_remark_mawi>
+  <document_type>order</document_type>
+  <document_kind>order</document_kind>
+  <document_date>2022-2-10</document_date>
+  <document_currency>EUR</document_currency>
+  <document_language_isocode>pl</document_language_isocode>
+  <order_list>
+    <item>
+      <document_number>T2203614</document_number>
+      <description>Panele do zamówienia TEST</description>
+      <customer_number>4326</customer_number>
+      <customer_turnover_tax_id />
+      <project_number>P210025931</project_number>
+      <project_description>Panele GRAD</project_description>
+      <authorised_person>pkoesl</authorised_person>
+      <authorised_person_name>Piotr Koesling</authorised_person_name>
+      <document_address>
+        <business_partner_number>4326</business_partner_number>
+        <form_of_address>NE</form_of_address>
+        <first_name />
+        <name>Neuffer Fenster + Türen GmbH</name>
+        <additional />
+        <additional_2 />
+        <street>Kronprinzstr. 8</street>
+        <postcode>70173</postcode>
+        <city>Stuttgart</city>
+        <country>Niemcy</country>
+        <country_isocode>DEU</country_isocode>
+      </document_address>
+      <delivery_address>
+        <business_partner_number>4326</business_partner_number>
+        <form_of_address>NE</form_of_address>
+        <first_name />
+        <name>Neuffer Fenster + Türen GmbH</name>
+        <additional />
+        <additional_2 />
+        <street>Kronprinzstr. 8</street>
+        <postbox />
+        <postcode>70173</postcode>
+        <city>Stuttgart</city>
+        <country>Niemcy</country>
+        <country_isocode>DEU</country_isocode>
+      </delivery_address>
+      <delivery_address_mawi>Ustawienia domyślne
+Wilhelmstr. 85 - 87
+53474 Bad Neuenahr-Ahrweiler
+Deutschland</delivery_address_mawi>
+      <glasses_delivery_date>
+        <type>terminart_kein</type>
+        <fixed_date>false</fixed_date>
+        <starting_date />
+        <final_date />
+        <description />
+        <version_k_documentdate>1</version_k_documentdate>
+      </glasses_delivery_date>
+      <glasses_delivery_date_mawi>2022-2-10</glasses_delivery_date_mawi>
+      <mounting_date>
+        <type>terminart_kein</type>
+        <fixed_date>false</fixed_date>
+        <starting_date />
+        <final_date />
+        <description />
+        <version_k_documentdate>1</version_k_documentdate>
+      </mounting_date>
+    </item>
+  </order_list>
+  <document_items>
+    <item>
+      <item_number>4</item_number>
+      <item_quantity>2</item_quantity>
+      <unit>Sztuka</unit>
+      <production_number />
+      <document_number>T2203614</document_number>
+      <matlist>
+        <quantity_windows>2</quantity_windows>
+        <quantity_glasses>1</quantity_glasses>
+        <glass_products>
+          <g_rect>
+            <profilegroup>ALUPLAS</profilegroup>
+            <serie>ID4_CLAS_IT</serie>
+            <element_nr>1</element_nr>
+            <elementfield_nr>1</elementfield_nr>
+            <field_nr>1</field_nr>
+            <field_kind>0</field_kind>
+            <glassfield_nr>1</glassfield_nr>
+            <glass_nr>1</glass_nr>
+            <glasskind>G</glasskind>
+            <piecekind>g</piecekind>
+            <supplier>PANELE-2KBR/VEGA</supplier>
+            <glassproduct>WW-P2K36-AC_PS_0_KK</glassproduct>
+            <product_des>Panel Acquamarina</product_des>
+            <product_text>Panel Acquamarina</product_text>
+            <record_glasstext1 />
+            <record_glasstext2 />
+            <record_glasstext3 />
+            <order_code />
+            <product_thickness>36</product_thickness>
+            <deliverykind>MONTAGEART_INFERTIGUNG</deliverykind>
+            <delivery_time>0</delivery_time>
+            <dxfsketch />
+            <sketch />
+            <structuretype>2</structuretype>
+            <barcode>T22036144       0101010</barcode>
+            <pane_structure>
+              <pane>
+                <key>AP04                </key>
+                <des>Jet-black (aludec)                                                                                  </des>
+                <text>Jet-black (aludec)                                                                                                                                    </text>
+                <type>0</type>
+                <ae_pane>false</ae_pane>
+                <thickness>10</thickness>
+                <ae_pane_thickness>false</ae_pane_thickness>
+                <structure_szr>false</structure_szr>
+                <structurelines>0</structurelines>
+                <sketch />
+                <colour_key>klar                </colour_key>
+                <colour_des>transparentny                                                                                       </colour_des>
+                <colour_text />
+                <order_code />
+                <sys_key>klar</sys_key>
+                <sys_des>transparentny</sys_des>
+                <sys_syskey>CLEAR</sys_syskey>
+                <compositeglass_structure />
+              </pane>
+              <szr>
+                <key>Acquamarina         </key>
+                <des>Acquamarina                                                                                         </des>
+                <text>Acquamarina                                                                                                                                           </text>
+                <thickness>16</thickness>
+                <spacer_order_code />
+                <gas_order_code />
+                <sys_key>Argon</sys_key>
+                <sys_des>Argon</sys_des>
+                <sys_syskey>AR</sys_syskey>
+              </szr>
+              <pane>
+                <key>AP04                </key>
+                <des>Jet-black (aludec)                                                                                  </des>
+                <text>Jet-black (aludec)                                                                                                                                    </text>
+                <type>0</type>
+                <ae_pane>false</ae_pane>
+                <thickness>10</thickness>
+                <ae_pane_thickness>false</ae_pane_thickness>
+                <structure_szr>false</structure_szr>
+                <structurelines>0</structurelines>
+                <sketch />
+                <colour_key>klar                </colour_key>
+                <colour_des>transparentny                                                                                       </colour_des>
+                <colour_text />
+                <order_code />
+                <sys_key>klar</sys_key>
+                <sys_des>transparentny</sys_des>
+                <sys_syskey>CLEAR</sys_syskey>
+                <compositeglass_structure />
+              </pane>
+            </pane_structure>
+            <glassarea>1.4192639589309692</glassarea>
+            <glasswidth>792</glasswidth>
+            <glassheight>1792</glassheight>
+            <glasspiece>2</glasspiece>
+            <glasscircumf>5.1680002212524414</glasscircumf>
+            <glassweight>17.031167984008789</glassweight>
+            <glassunitprice>311.75</glassunitprice>
+            <glassdiscountpercent>0</glassdiscountpercent>
+            <surchargemodel>0</surchargemodel>
+            <surchargeprocessing>0</surchargeprocessing>
+            <surchargepromode />
+            <features>
+              <heatinsulation>false</heatinsulation>
+              <sunprotection>false</sunprotection>
+              <self_cleaning>false</self_cleaning>
+              <non_reflecting>false</non_reflecting>
+              <mirrored>false</mirrored>
+              <sound_insulation>false</sound_insulation>
+              <breakthrough_retardant>false</breakthrough_retardant>
+              <impact_resistant>false</impact_resistant>
+              <overhead_equipment>false</overhead_equipment>
+              <glass_levels_admission>false</glass_levels_admission>
+            </features>
+            <tecw>
+              <tecw_ug>1.3</tecw_ug>
+              <tecw_g>0</tecw_g>
+              <tecw_sc>0</tecw_sc>
+              <tecw_tl>0</tecw_tl>
+              <tecw_rl>0</tecw_rl>
+              <tecw_ra>0</tecw_ra>
+              <tecw_rw>0</tecw_rw>
+              <tecw_ws>-1</tecw_ws>
+              <tecw_ws_des />
+              <tecw_psi>0.019000000000000003</tecw_psi>
+            </tecw>
+            <edge_seal>
+              <spacer>
+                <key>PVC                 </key>
+                <des>PVC                                                                                                 </des>
+                <text>PVC                                                                                                                                                   </text>
+                <sys_key>PVC</sys_key>
+                <sys_des>PVC</sys_des>
+                <sys_syskey>PVC</sys_syskey>
+              </spacer>
+              <spacer_colour>
+                <key>PVC                 </key>
+                <des>PVC                                                                                                 </des>
+                <text>PVC                                                                                                                                                   </text>
+                <sys_key>PVC</sys_key>
+                <sys_des>PVC</sys_des>
+                <sys_syskey>PVC</sys_syskey>
+              </spacer_colour>
+              <sec_gasket>
+                <key>PVC                 </key>
+                <des>PVC                                                                                                 </des>
+                <text />
+                <order_code />
+                <sys_key>Silikon</sys_key>
+                <sys_des>Silikon</sys_des>
+                <sys_syskey>SILICONE</sys_syskey>
+              </sec_gasket>
+              <gasket_type>
+                <key>Altbau              </key>
+                <des>Stare budownictwo                                                                                   </des>
+                <text />
+                <sys_key>Altbau</sys_key>
+                <sys_des>Stare budownictwo</sys_des>
+                <sys_syskey>OLDBUILDING</sys_syskey>
+              </gasket_type>
+              <pressure_balance>false</pressure_balance>
+            </edge_seal>
+            <order_text> ZEW.AP04 Jet-black (aludec) / WEW.AP04  Jet-black (aludec) / WW-P2K36-AC_PS_0_KK / Panel Acquamarina / PVC / Stare budownictwo /36</order_text>
+            <glasssashbarsurcharge />
+            <glass_sashbar />
+            <archinformation />
+          </g_rect>
+        </glass_products>
+        <sketch>T2203614_4_00_00_00</sketch>
+      </matlist>
+    </item>
+  </document_items>
+</document_data>

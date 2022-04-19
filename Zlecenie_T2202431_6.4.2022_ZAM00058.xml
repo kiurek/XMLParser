@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document_data>
+  <company_address>
+    <form_of_address />
+    <first_name />
+    <name>WND Sp. z.o.o.</name>
+    <additional />
+    <additional_2>Rabién</additional_2>
+    <street>Sucha 1/3</street>
+    <postbox />
+    <postcode>PL-95070</postcode>
+    <postcode_address />
+    <city>Aleksandrów Łódzki</city>
+    <salutation />
+    <country>POL</country>
+    <it_contact_list />
+  </company_address>
+  <ordering_informations>
+  </ordering_informations>
+  <order_remark_mawi>
+  </order_remark_mawi>
+  <document_type>order</document_type>
+  <document_kind>order</document_kind>
+  <document_date>2022-1-31</document_date>
+  <document_currency>EUR</document_currency>
+  <document_language_isocode>pl</document_language_isocode>
+  <order_list>
+    <item>
+      <document_number>T2202431</document_number>
+      <description>2KBR</description>
+      <customer_number>KL.IT</customer_number>
+      <customer_turnover_tax_id />
+      <project_number>P220002016</project_number>
+      <project_description>2KBR</project_description>
+      <authorised_person>pkoesl</authorised_person>
+      <authorised_person_name>Piotr Koesling</authorised_person_name>
+      <document_address>
+        <business_partner_number>KL.IT</business_partner_number>
+        <form_of_address>WYCENA SCUOLA</form_of_address>
+        <first_name />
+        <name>CARUSO ORAZIO ANTONIO</name>
+        <additional />
+        <additional_2 />
+        <street>VIA F.LLI CAIROLI N 115</street>
+        <postcode>95045</postcode>
+        <city>MISTERBIANCO CT</city>
+        <country>Włochy</country>
+        <country_isocode>ITA</country_isocode>
+      </document_address>
+      <delivery_address>
+        <business_partner_number>KL.IT</business_partner_number>
+        <form_of_address>WYCENA SCUOLA</form_of_address>
+        <first_name />
+        <name>CARUSO ORAZIO ANTONIO</name>
+        <additional />
+        <additional_2 />
+        <street>VIA F.LLI CAIROLI N 115</street>
+        <postbox />
+        <postcode>95045</postcode>
+        <city>MISTERBIANCO CT</city>
+        <country>Włochy</country>
+        <country_isocode>ITA</country_isocode>
+      </delivery_address>
+      <delivery_address_mawi>Ustawienia domyślne
+Wilhelmstr. 85 - 87
+53474 Bad Neuenahr-Ahrweiler
+Deutschland</delivery_address_mawi>
+      <glasses_delivery_date>
+        <type>terminart_kein</type>
+        <fixed_date>false</fixed_date>
+        <starting_date />
+        <final_date />
+        <description />
+        <version_k_documentdate>1</version_k_documentdate>
+      </glasses_delivery_date>
+      <glasses_delivery_date_mawi>2022-4-6</glasses_delivery_date_mawi>
+      <mounting_date>
+        <type>terminart_kein</type>
+        <fixed_date>false</fixed_date>
+        <starting_date />
+        <final_date />
+        <description />
+        <version_k_documentdate>1</version_k_documentdate>
+      </mounting_date>
+    </item>
+  </order_list>
+  <document_items>
+    <item>
+      <item_number>1</item_number>
+      <item_quantity>3</item_quantity>
+      <unit>Sztuka</unit>
+      <production_number />
+      <document_number>T2202431</document_number>
+      <matlist>
+        <quantity_windows>3</quantity_windows>
+        <quantity_glasses>1</quantity_glasses>
+        <glass_products>
+          <g_rect>
+            <profilegroup>ALUPLAS</profilegroup>
+            <serie>ID4_CLAS_IT</serie>
+            <element_nr>1</element_nr>
+            <elementfield_nr>1</elementfield_nr>
+            <field_nr>1</field_nr>
+            <field_kind>0</field_kind>
+            <glassfield_nr>1</glassfield_nr>
+            <glass_nr>1</glass_nr>
+            <glasskind>G</glasskind>
+            <piecekind>g</piecekind>
+            <supplier>PANELE-2KBR/VEGA</supplier>
+            <glassproduct>WW-P2K36-AC_3S_0_KK</glassproduct>
+            <product_des>Panel Acquamarina 03</product_des>
+            <product_text>Panel Acquamarina 03</product_text>
+            <record_glasstext1 />
+            <record_glasstext2>Turner Oak Toffee (woodec)</record_glasstext2>
+            <record_glasstext3>Antracyt struktura drewna</record_glasstext3>
+            <order_code />
+            <product_thickness>36</product_thickness>
+            <deliverykind>MONTAGEART_INFERTIGUNG</deliverykind>
+            <delivery_time>0</delivery_time>
+            <dxfsketch />
+            <sketch />
+            <structuretype>2</structuretype>
+            <barcode>T22024311       0101010</barcode>
+            <pane_structure>
+              <pane>
+                <key>AP22                </key>
+                <des>Turner Oak Toffee (woodec)                                                                          </des>
+                <text>Turner Oak Toffee (woodec)                                                                                                                            </text>
+                <type>0</type>
+                <ae_pane>true</ae_pane>
+                <thickness>10</thickness>
+                <ae_pane_thickness>false</ae_pane_thickness>
+                <structure_szr>false</structure_szr>
+                <structurelines>0</structurelines>
+                <sketch />
+                <colour_key>klar                </colour_key>
+                <colour_des>transparentny                                                                                       </colour_des>
+                <colour_text />
+                <order_code />
+                <sys_key>klar</sys_key>
+                <sys_des>transparentny</sys_des>
+                <sys_syskey>CLEAR</sys_syskey>
+                <compositeglass_structure />
+              </pane>
+              <szr>
+                <key>Acquamarina_03      </key>
+                <des>Acquamarina_03                                                                                      </des>
+                <text>Acquamarina_03                                                                                                                                        </text>
+                <thickness>16</thickness>
+                <spacer_order_code />
+                <gas_order_code />
+                <sys_key>Argon</sys_key>
+                <sys_des>Argon</sys_des>
+                <sys_syskey>AR</sys_syskey>
+              </szr>
+              <pane>
+                <key>AP40                </key>
+                <des>Antracyt struktura drewna                                                                           </des>
+                <text>Antracyt struktura drewna                                                                                                                             </text>
+                <type>0</type>
+                <ae_pane>true</ae_pane>
+                <thickness>10</thickness>
+                <ae_pane_thickness>false</ae_pane_thickness>
+                <structure_szr>false</structure_szr>
+                <structurelines>0</structurelines>
+                <sketch />
+                <colour_key>klar                </colour_key>
+                <colour_des>transparentny                                                                                       </colour_des>
+                <colour_text />
+                <order_code />
+                <sys_key>klar</sys_key>
+                <sys_des>transparentny</sys_des>
+                <sys_syskey>CLEAR</sys_syskey>
+                <compositeglass_structure />
+              </pane>
+            </pane_structure>
+            <glassarea>1.5776640176773071</glassarea>
+            <glasswidth>792</glasswidth>
+            <glassheight>1992</glassheight>
+            <glasspiece>3</glasspiece>
+            <glasscircumf>5.5679998397827148</glasscircumf>
+            <glassweight>18.931968688964844</glassweight>
+            <glassunitprice>409.75</glassunitprice>
+            <glassdiscountpercent>0</glassdiscountpercent>
+            <surchargemodel>0</surchargemodel>
+            <surchargeprocessing>0</surchargeprocessing>
+            <surchargepromode />
+            <features>
+              <heatinsulation>false</heatinsulation>
+              <sunprotection>false</sunprotection>
+              <self_cleaning>false</self_cleaning>
+              <non_reflecting>false</non_reflecting>
+              <mirrored>false</mirrored>
+              <sound_insulation>false</sound_insulation>
+              <breakthrough_retardant>false</breakthrough_retardant>
+              <impact_resistant>false</impact_resistant>
+              <overhead_equipment>false</overhead_equipment>
+              <glass_levels_admission>false</glass_levels_admission>
+            </features>
+            <tecw>
+              <tecw_ug>1.3</tecw_ug>
+              <tecw_g>0</tecw_g>
+              <tecw_sc>0</tecw_sc>
+              <tecw_tl>0</tecw_tl>
+              <tecw_rl>0</tecw_rl>
+              <tecw_ra>0</tecw_ra>
+              <tecw_rw>0</tecw_rw>
+              <tecw_ws>-1</tecw_ws>
+              <tecw_ws_des />
+              <tecw_psi>0.019000000000000003</tecw_psi>
+            </tecw>
+            <edge_seal>
+              <spacer>
+                <key>VEGA SZKŁO          </key>
+                <des>VEGA SZKŁO                                                                                          </des>
+                <text />
+                <sys_key>VEGA SZKŁO</sys_key>
+                <sys_des>VEGA SZKŁO</sys_des>
+                <sys_syskey>VEGA SZKŁO</sys_syskey>
+              </spacer>
+              <spacer_colour>
+                <key>33.1Satinato/12/4ESG</key>
+                <des>33.1Satinato/12/4ESG                                                                                </des>
+                <text>33.1Satinato/12/4ESG                                                                                                                                  </text>
+                <sys_key>33.1Satinato/12/4ESG</sys_key>
+                <sys_des>33.1Satinato/12/4ESG</sys_des>
+                <sys_syskey>33.1SATINATO/12/4ESG</sys_syskey>
+              </spacer_colour>
+              <sec_gasket>
+                <key>PVC                 </key>
+                <des>PVC                                                                                                 </des>
+                <text />
+                <order_code />
+                <sys_key>Silikon</sys_key>
+                <sys_des>Silikon</sys_des>
+                <sys_syskey>SILICONE</sys_syskey>
+              </sec_gasket>
+              <gasket_type>
+                <key>Altbau              </key>
+                <des>Stare budownictwo                                                                                   </des>
+                <text />
+                <sys_key>Altbau</sys_key>
+                <sys_des>Stare budownictwo</sys_des>
+                <sys_syskey>OLDBUILDING</sys_syskey>
+              </gasket_type>
+              <pressure_balance>false</pressure_balance>
+            </edge_seal>
+            <order_text> ZEW.AP22 Turner Oak Toffee (woodec) / WEW.AP40  Antracyt struktura drewna / WW-P2K36-AC_3S_0_KK / Panel Acquamarina 03 / 33.1Satinato/12/4ESG / Stare budownictwo // / 36 mm</order_text>
+            <glasssashbarsurcharge />
+            <glass_sashbar />
+            <archinformation />
+          </g_rect>
+        </glass_products>
+        <sketch>T2202431_1_00_00_00</sketch>
+      </matlist>
+    </item>
+    <item>
+      <item_number>2</item_number>
+      <item_quantity>4</item_quantity>
+      <unit>Sztuka</unit>
+      <production_number />
+      <document_number>T2202431</document_number>
+      <matlist>
+        <quantity_windows>4</quantity_windows>
+        <quantity_glasses>1</quantity_glasses>
+        <glass_products>
+          <g_rect>
+            <profilegroup>ALUPLAS</profilegroup>
+            <serie>ID4_CLAS_IT</serie>
+            <element_nr>1</element_nr>
+            <elementfield_nr>1</elementfield_nr>
+            <field_nr>1</field_nr>
+            <field_kind>0</field_kind>
+            <glassfield_nr>1</glassfield_nr>
+            <glass_nr>1</glass_nr>
+            <glasskind>G</glasskind>
+            <piecekind>g</piecekind>
+            <supplier>PANELE-2KBR/VEGA</supplier>
+            <glassproduct>WW-P2K36-AG_PS_0_KB</glassproduct>
+            <product_des>Panel Agata</product_des>
+            <product_text>Panel Agata</product_text>
+            <record_glasstext1 />
+            <record_glasstext2 />
+            <record_glasstext3 />
+            <order_code />
+            <product_thickness>36</product_thickness>
+            <deliverykind>MONTAGEART_INFERTIGUNG</deliverykind>
+            <delivery_time>0</delivery_time>
+            <dxfsketch />
+            <sketch />
+            <structuretype>2</structuretype>
+            <barcode>T22024312       0101010</barcode>
+            <pane_structure>
+              <pane>
+                <key>AP04                </key>
+                <des>Jet-black (aludec)                                                                                  </des>
+                <text>Jet-black (aludec)                                                                                                                                    </text>
+                <type>0</type>
+                <ae_pane>false</ae_pane>
+                <thickness>10</thickness>
+                <ae_pane_thickness>false</ae_pane_thickness>
+                <structure_szr>false</structure_szr>
+                <structurelines>0</structurelines>
+                <sketch />
+                <colour_key>klar                </colour_key>
+                <colour_des>transparentny                                                                                       </colour_des>
+                <colour_text />
+                <order_code />
+                <sys_key>klar</sys_key>
+                <sys_des>transparentny</sys_des>
+                <sys_syskey>CLEAR</sys_syskey>
+                <compositeglass_structure />
+              </pane>
+              <szr>
+                <key>Agata               </key>
+                <des>Agata                                                                                               </des>
+                <text>Agata                                                                                                                                                 </text>
+                <thickness>16</thickness>
+                <spacer_order_code />
+                <gas_order_code />
+                <sys_key>Argon</sys_key>
+                <sys_des>Argon</sys_des>
+                <sys_syskey>AR</sys_syskey>
+              </szr>
+              <pane>
+                <key>BI                  </key>
+                <des>Biały 9016                                                                                          </des>
+                <text>Biały 9016                                                                                                                                            </text>
+                <type>0</type>
+                <ae_pane>false</ae_pane>
+                <thickness>10</thickness>
+                <ae_pane_thickness>false</ae_pane_thickness>
+                <structure_szr>false</structure_szr>
+                <structurelines>0</structurelines>
+                <sketch />
+                <colour_key>klar                </colour_key>
+                <colour_des>transparentny                                                                                       </colour_des>
+                <colour_text />
+                <order_code />
+                <sys_key>klar</sys_key>
+                <sys_des>transparentny</sys_des>
+                <sys_syskey>CLEAR</sys_syskey>
+                <compositeglass_structure />
+              </pane>
+            </pane_structure>
+            <glassarea>1.5776640176773071</glassarea>
+            <glasswidth>792</glasswidth>
+            <glassheight>1992</glassheight>
+            <glasspiece>4</glasspiece>
+            <glasscircumf>5.5679998397827148</glasscircumf>
+            <glassweight>48.907585144042969</glassweight>
+            <glassunitprice>311.75</glassunitprice>
+            <glassdiscountpercent>0</glassdiscountpercent>
+            <surchargemodel>0</surchargemodel>
+            <surchargeprocessing>0</surchargeprocessing>
+            <surchargepromode />
+            <features>
+              <heatinsulation>false</heatinsulation>
+              <sunprotection>false</sunprotection>
+              <self_cleaning>false</self_cleaning>
+              <non_reflecting>false</non_reflecting>
+              <mirrored>false</mirrored>
+              <sound_insulation>false</sound_insulation>
+              <breakthrough_retardant>false</breakthrough_retardant>
+              <impact_resistant>false</impact_resistant>
+              <overhead_equipment>false</overhead_equipment>
+              <glass_levels_admission>false</glass_levels_admission>
+            </features>
+            <tecw>
+              <tecw_ug>1.3</tecw_ug>
+              <tecw_g>0</tecw_g>
+              <tecw_sc>0</tecw_sc>
+              <tecw_tl>0</tecw_tl>
+              <tecw_rl>0</tecw_rl>
+              <tecw_ra>0</tecw_ra>
+              <tecw_rw>0</tecw_rw>
+              <tecw_ws>-1</tecw_ws>
+              <tecw_ws_des />
+              <tecw_psi>0.019000000000000003</tecw_psi>
+            </tecw>
+            <edge_seal>
+              <spacer>
+                <key>VEGA SZKŁO          </key>
+                <des>VEGA SZKŁO                                                                                          </des>
+                <text />
+                <sys_key>VEGA SZKŁO</sys_key>
+                <sys_des>VEGA SZKŁO</sys_des>
+                <sys_syskey>VEGA SZKŁO</sys_syskey>
+              </spacer>
+              <spacer_colour>
+                <key>33.1Satinato/12/4ESG</key>
+                <des>33.1Satinato/12/4ESG                                                                                </des>
+                <text>33.1Satinato/12/4ESG                                                                                                                                  </text>
+                <sys_key>33.1Satinato/12/4ESG</sys_key>
+                <sys_des>33.1Satinato/12/4ESG</sys_des>
+                <sys_syskey>33.1SATINATO/12/4ESG</sys_syskey>
+              </spacer_colour>
+              <sec_gasket>
+                <key>PVC                 </key>
+                <des>PVC                                                                                                 </des>
+                <text />
+                <order_code />
+                <sys_key>Silikon</sys_key>
+                <sys_des>Silikon</sys_des>
+                <sys_syskey>SILICONE</sys_syskey>
+              </sec_gasket>
+              <gasket_type>
+                <key>Altbau              </key>
+                <des>Stare budownictwo                                                                                   </des>
+                <text />
+                <sys_key>Altbau</sys_key>
+                <sys_des>Stare budownictwo</sys_des>
+                <sys_syskey>OLDBUILDING</sys_syskey>
+              </gasket_type>
+              <pressure_balance>false</pressure_balance>
+            </edge_seal>
+            <order_text> ZEW.AP04 Jet-black (aludec) / WEW.BI  Biały 9016 / WW-P2K36-AG_PS_0_KB / Panel Agata  / 33.1Satinato/12/4ESG / Stare budownictwo // / 36 mm</order_text>
+            <glasssashbarsurcharge />
+            <glass_sashbar />
+            <archinformation />
+          </g_rect>
+        </glass_products>
+        <sketch>T2202431_2_00_00_00</sketch>
+      </matlist>
+    </item>
+    <item>
+      <item_number>3</item_number>
+      <item_quantity>5</item_quantity>
+      <unit>Sztuka</unit>
+      <production_number />
+      <document_number>T2202431</document_number>
+      <matlist>
+        <quantity_windows>5</quantity_windows>
+        <quantity_glasses>1</quantity_glasses>
+        <glass_products>
+          <g_rect>
+            <profilegroup>ALUPLAS</profilegroup>
+            <serie>ID4_CLAS_IT</serie>
+            <element_nr>1</element_nr>
+            <elementfield_nr>1</elementfield_nr>
+            <field_nr>1</field_nr>
+            <field_kind>0</field_kind>
+            <glassfield_nr>1</glassfield_nr>
+            <glass_nr>1</glass_nr>
+            <glasskind>G</glasskind>
+            <piecekind>g</piecekind>
+            <supplier>PANELE-2KBR/VEGA</supplier>
+            <glassproduct>WW-P2K36-RU_1S_0_KK</glassproduct>
+            <product_des>Panel Rubino 1</product_des>
+            <product_text>Panel Rubino 1</product_text>
+            <record_glasstext1 />
+            <record_glasstext2>Creme Weiss</record_glasstext2>
+            <record_glasstext3 />
+            <order_code />
+            <product_thickness>36</product_thickness>
+            <deliverykind>MONTAGEART_INFERTIGUNG</deliverykind>
+            <delivery_time>0</delivery_time>
+            <dxfsketch />
+            <sketch />
+            <structuretype>2</structuretype>
+            <barcode>T22024313       0101010</barcode>
+            <pane_structure>
+              <pane>
+                <key>AP50                </key>
+                <des>Creme Weiss                                                                                         </des>
+                <text>Creme Weiss                                                                                                                                           </text>
+                <type>0</type>
+                <ae_pane>true</ae_pane>
+                <thickness>10</thickness>
+                <ae_pane_thickness>false</ae_pane_thickness>
+                <structure_szr>false</structure_szr>
+                <structurelines>0</structurelines>
+                <sketch />
+                <colour_key>klar                </colour_key>
+                <colour_des>transparentny                                                                                       </colour_des>
+                <colour_text />
+                <order_code />
+                <sys_key>klar</sys_key>
+                <sys_des>transparentny</sys_des>
+                <sys_syskey>CLEAR</sys_syskey>
+                <compositeglass_structure />
+              </pane>
+              <szr>
+                <key>Rubino_1            </key>
+                <des>Rubino_1                                                                                            </des>
+                <text>Rubino_1                                                                                                                                              </text>
+                <thickness>16</thickness>
+                <spacer_order_code />
+                <gas_order_code />
+                <sys_key>Argon</sys_key>
+                <sys_des>Argon</sys_des>
+                <sys_syskey>AR</sys_syskey>
+              </szr>
+              <pane>
+                <key>AP04                </key>
+                <des>Jet-black (aludec)                                                                                  </des>
+                <text>Jet-black (aludec)                                                                                                                                    </text>
+                <type>0</type>
+                <ae_pane>false</ae_pane>
+                <thickness>10</thickness>
+                <ae_pane_thickness>false</ae_pane_thickness>
+                <structure_szr>false</structure_szr>
+                <structurelines>0</structurelines>
+                <sketch />
+                <colour_key>klar                </colour_key>
+                <colour_des>transparentny                                                                                       </colour_des>
+                <colour_text />
+                <order_code />
+                <sys_key>klar</sys_key>
+                <sys_des>transparentny</sys_des>
+                <sys_syskey>CLEAR</sys_syskey>
+                <compositeglass_structure />
+              </pane>
+            </pane_structure>
+            <glassarea>1.3092639446258545</glassarea>
+            <glasswidth>692</glasswidth>
+            <glassheight>1892</glassheight>
+            <glasspiece>5</glasspiece>
+            <glasscircumf>5.1680002212524414</glasscircumf>
+            <glassweight>15.711167335510254</glassweight>
+            <glassunitprice>371.25</glassunitprice>
+            <glassdiscountpercent>0</glassdiscountpercent>
+            <surchargemodel>0</surchargemodel>
+            <surchargeprocessing>0</surchargeprocessing>
+            <surchargepromode />
+            <features>
+              <heatinsulation>false</heatinsulation>
+              <sunprotection>false</sunprotection>
+              <self_cleaning>false</self_cleaning>
+              <non_reflecting>false</non_reflecting>
+              <mirrored>false</mirrored>
+              <sound_insulation>false</sound_insulation>
+              <breakthrough_retardant>false</breakthrough_retardant>
+              <impact_resistant>false</impact_resistant>
+              <overhead_equipment>false</overhead_equipment>
+              <glass_levels_admission>false</glass_levels_admission>
+            </features>
+            <tecw>
+              <tecw_ug>1.3</tecw_ug>
+              <tecw_g>0</tecw_g>
+              <tecw_sc>0</tecw_sc>
+              <tecw_tl>0</tecw_tl>
+              <tecw_rl>0</tecw_rl>
+              <tecw_ra>0</tecw_ra>
+              <tecw_rw>0</tecw_rw>
+              <tecw_ws>-1</tecw_ws>
+              <tecw_ws_des />
+              <tecw_psi>0.019000000000000003</tecw_psi>
+            </tecw>
+            <edge_seal>
+              <spacer>
+                <key>PVC                 </key>
+                <des>PVC                                                                                                 </des>
+                <text>PVC                                                                                                                                                   </text>
+                <sys_key>PVC</sys_key>
+                <sys_des>PVC</sys_des>
+                <sys_syskey>PVC</sys_syskey>
+              </spacer>
+              <spacer_colour>
+                <key>PVC                 </key>
+                <des>PVC                                                                                                 </des>
+                <text>PVC                                                                                                                                                   </text>
+                <sys_key>PVC</sys_key>
+                <sys_des>PVC</sys_des>
+                <sys_syskey>PVC</sys_syskey>
+              </spacer_colour>
+              <sec_gasket>
+                <key>PVC                 </key>
+                <des>PVC                                                                                                 </des>
+                <text />
+                <order_code />
+                <sys_key>Silikon</sys_key>
+                <sys_des>Silikon</sys_des>
+                <sys_syskey>SILICONE</sys_syskey>
+              </sec_gasket>
+              <gasket_type>
+                <key>Altbau              </key>
+                <des>Stare budownictwo                                                                                   </des>
+                <text />
+                <sys_key>Altbau</sys_key>
+                <sys_des>Stare budownictwo</sys_des>
+                <sys_syskey>OLDBUILDING</sys_syskey>
+              </gasket_type>
+              <pressure_balance>false</pressure_balance>
+            </edge_seal>
+            <order_text> ZEW.AP50 Creme Weiss / WEW.AP04  Jet-black (aludec) / WW-P2K36-RU_1S_0_KK / Panel Rubino 1 / PVC / Stare budownictwo // / 36 mm</order_text>
+            <glasssashbarsurcharge />
+            <glass_sashbar />
+            <archinformation />
+          </g_rect>
+        </glass_products>
+        <sketch>T2202431_3_00_00_00</sketch>
+      </matlist>
+    </item>
+    <item>
+      <item_number>4</item_number>
+      <item_quantity>1</item_quantity>
+      <unit>Sztuka</unit>
+      <production_number />
+      <document_number>T2202431</document_number>
+      <matlist>
+        <quantity_windows>1</quantity_windows>
+        <quantity_glasses>1</quantity_glasses>
+        <glass_products>
+          <g_rect>
+            <profilegroup>ALUPLAS</profilegroup>
+            <serie>ID4_CLAS_IT</serie>
+            <element_nr>1</element_nr>
+            <elementfield_nr>1</elementfield_nr>
+            <field_nr>1</field_nr>
+            <field_kind>0</field_kind>
+            <glassfield_nr>1</glassfield_nr>
+            <glass_nr>1</glass_nr>
+            <glasskind>G</glasskind>
+            <piecekind>g</piecekind>
+            <supplier>PANELE-2KBR/VEGA</supplier>
+            <glassproduct>WW-P2K36-ZI_3S_0_KK</glassproduct>
+            <product_des>Pane Zircone 3</product_des>
+            <product_text>Panel Zircone 3</product_text>
+            <record_glasstext1 />
+            <record_glasstext2>Orzech</record_glasstext2>
+            <record_glasstext3>Dąb newcastle</record_glasstext3>
+            <order_code />
+            <product_thickness>36</product_thickness>
+            <deliverykind>MONTAGEART_INFERTIGUNG</deliverykind>
+            <delivery_time>0</delivery_time>
+            <dxfsketch />
+            <sketch />
+            <structuretype>2</structuretype>
+            <barcode>T22024314       0101010</barcode>
+            <pane_structure>
+              <pane>
+                <key>AP27                </key>
+                <des>Orzech                                                                                              </des>
+                <text>Orzech                                                                                                                                                </text>
+                <type>0</type>
+                <ae_pane>true</ae_pane>
+                <thickness>10</thickness>
+                <ae_pane_thickness>false</ae_pane_thickness>
+                <structure_szr>false</structure_szr>
+                <structurelines>0</structurelines>
+                <sketch />
+                <colour_key>klar                </colour_key>
+                <colour_des>transparentny                                                                                       </colour_des>
+                <colour_text />
+                <order_code />
+                <sys_key>klar</sys_key>
+                <sys_des>transparentny</sys_des>
+                <sys_syskey>CLEAR</sys_syskey>
+                <compositeglass_structure />
+              </pane>
+              <szr>
+                <key>Zircone_3           </key>
+                <des>Zircone_3                                                                                           </des>
+                <text>Zircone_3                                                                                                                                             </text>
+                <thickness>16</thickness>
+                <spacer_order_code />
+                <gas_order_code />
+                <sys_key>Argon</sys_key>
+                <sys_des>Argon</sys_des>
+                <sys_syskey>AR</sys_syskey>
+              </szr>
+              <pane>
+                <key>AP95                </key>
+                <des>Dąb newcastle                                                                                       </des>
+                <text>Dąb newcastle                                                                                                                                         </text>
+                <type>0</type>
+                <ae_pane>true</ae_pane>
+                <thickness>10</thickness>
+                <ae_pane_thickness>false</ae_pane_thickness>
+                <structure_szr>false</structure_szr>
+                <structurelines>0</structurelines>
+                <sketch />
+                <colour_key>klar                </colour_key>
+                <colour_des>transparentny                                                                                       </colour_des>
+                <colour_text />
+                <order_code />
+                <sys_key>klar</sys_key>
+                <sys_des>transparentny</sys_des>
+                <sys_syskey>CLEAR</sys_syskey>
+                <compositeglass_structure />
+              </pane>
+            </pane_structure>
+            <glassarea>1.3092639446258545</glassarea>
+            <glasswidth>692</glasswidth>
+            <glassheight>1892</glassheight>
+            <glasspiece>1</glasspiece>
+            <glasscircumf>5.1680002212524414</glasscircumf>
+            <glassweight>15.711167335510254</glassweight>
+            <glassunitprice>409.75</glassunitprice>
+            <glassdiscountpercent>0</glassdiscountpercent>
+            <surchargemodel>0</surchargemodel>
+            <surchargeprocessing>0</surchargeprocessing>
+            <surchargepromode />
+            <features>
+              <heatinsulation>false</heatinsulation>
+              <sunprotection>false</sunprotection>
+              <self_cleaning>false</self_cleaning>
+              <non_reflecting>false</non_reflecting>
+              <mirrored>false</mirrored>
+              <sound_insulation>false</sound_insulation>
+              <breakthrough_retardant>false</breakthrough_retardant>
+              <impact_resistant>false</impact_resistant>
+              <overhead_equipment>false</overhead_equipment>
+              <glass_levels_admission>false</glass_levels_admission>
+            </features>
+            <tecw>
+              <tecw_ug>1.3</tecw_ug>
+              <tecw_g>0</tecw_g>
+              <tecw_sc>0</tecw_sc>
+              <tecw_tl>0</tecw_tl>
+              <tecw_rl>0</tecw_rl>
+              <tecw_ra>0</tecw_ra>
+              <tecw_rw>0</tecw_rw>
+              <tecw_ws>-1</tecw_ws>
+              <tecw_ws_des />
+              <tecw_psi>0.019000000000000003</tecw_psi>
+            </tecw>
+            <edge_seal>
+              <spacer>
+                <key>VEGA SZKŁO          </key>
+                <des>VEGA SZKŁO                                                                                          </des>
+                <text />
+                <sys_key>VEGA SZKŁO</sys_key>
+                <sys_des>VEGA SZKŁO</sys_des>
+                <sys_syskey>VEGA SZKŁO</sys_syskey>
+              </spacer>
+              <spacer_colour>
+                <key>33.1Satinato/12/4ESG</key>
+                <des>33.1Satinato/12/4ESG                                                                                </des>
+                <text>33.1Satinato/12/4ESG                                                                                                                                  </text>
+                <sys_key>33.1Satinato/12/4ESG</sys_key>
+                <sys_des>33.1Satinato/12/4ESG</sys_des>
+                <sys_syskey>33.1SATINATO/12/4ESG</sys_syskey>
+              </spacer_colour>
+              <sec_gasket>
+                <key>PVC                 </key>
+                <des>PVC                                                                                                 </des>
+                <text />
+                <order_code />
+                <sys_key>Silikon</sys_key>
+                <sys_des>Silikon</sys_des>
+                <sys_syskey>SILICONE</sys_syskey>
+              </sec_gasket>
+              <gasket_type>
+                <key>Altbau              </key>
+                <des>Stare budownictwo                                                                                   </des>
+                <text />
+                <sys_key>Altbau</sys_key>
+                <sys_des>Stare budownictwo</sys_des>
+                <sys_syskey>OLDBUILDING</sys_syskey>
+              </gasket_type>
+              <pressure_balance>false</pressure_balance>
+            </edge_seal>
+            <order_text> ZEW.AP27 Orzech / WEW.AP95  Dąb newcastle / WW-P2K36-ZI_3S_0_KK / Panel Zircone 3 / 33.1Satinato/12/4ESG / Stare budownictwo // / 36 mm</order_text>
+            <glasssashbarsurcharge />
+            <glass_sashbar />
+            <archinformation />
+          </g_rect>
+        </glass_products>
+        <sketch>T2202431_4_00_00_00</sketch>
+      </matlist>
+    </item>
+  </document_items>
+</document_data>
