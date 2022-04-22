@@ -11,7 +11,7 @@ namespace XMLParser
     {
         public static void ZlecenieXDocumentParse()
         {
-            XDocument xml = XDocument.Load(@"C:\Users\kkure\source\repos\XMLParser\Zlecenie_T2202431_6.4.2022_ZAM00058.xml");
+            XDocument xml = XDocument.Load(@"C:\Users\Kubiś\source\repos\kiurek\XMLParser\Zlecenie_T2202431_6.4.2022_ZAM00058.xml");
 
             IEnumerable<XElement> xElements = xml.Descendants("document_number");
 
@@ -33,50 +33,66 @@ namespace XMLParser
 
             foreach (XElement element in xElements)
             {
-                int e = 0;
-                e++;
-                Console.WriteLine(e +"Nr dokumentu: " + element.Value);
+                Console.WriteLine("Nr dokumentu: " + element.Value);
             }
+
+            Console.WriteLine();
 
             foreach (XElement element in xElements1)
             {
                 Console.WriteLine("Ilość: " + element.Value);
             }
 
+            Console.WriteLine();
+
             foreach (XElement element in xElements2)
             {
                 Console.WriteLine("Nazwa: " + element.Value);
             }
+
+            Console.WriteLine();
 
             foreach (XElement element in xElements3)
             {
                 Console.WriteLine("Szerokość: " + element.Value);
             }
 
+            Console.WriteLine();
+
             foreach (XElement element in xElements4)
             {
                 Console.WriteLine("Wysokość: " + element.Value);
             }
+
+            Console.WriteLine();
 
             foreach (XElement element in xElements5)
             {
                 Console.WriteLine("Grubość: " + element.Value);
             }
 
+            Console.WriteLine();
+
             foreach (XElement element in xElements6)
             {
                 Console.WriteLine("Kolor: " + element.Value);
             }
 
+            Console.WriteLine();
+
             foreach (XElement element in xElements7)
             {
                 Console.WriteLine("Kolor szkła: " + element.Value);
             }
-            
+
+            Console.WriteLine();
+
             foreach (XElement element in xElements8)
             {
                 Console.WriteLine("Podsumowanie: " + element.Value);
             }
+
+            Console.WriteLine();
         }
     }
 }
