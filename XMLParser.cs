@@ -11,6 +11,48 @@ namespace XMLParser
     {
         public static void ZlecenieXDocumentParse()
         {
+            /*
+                XmlDocument doc = new XmlDocument();
+                doc.Load(@"C:\Users\kkure\source\repos\XMLParser\XMLFile1.xml");
+                XmlNodeList nodes = doc.DocumentElement.SelectNodes("/Store/Product");
+                string product_id = "", product_name = "", product_price = "";
+                foreach (XmlNode node in nodes)
+                {
+                    product_id = node.SelectSingleNode("Product_id").InnerText;
+                    product_name = node.SelectSingleNode("Product_name").InnerText;
+                    product_price = node.SelectSingleNode("Product_price").InnerText;
+                    Console.WriteLine(product_id + " " + product_name + " " + product_price);
+                }
+            */
+
+            XmlDocument zlecenie = new XmlDocument();
+            zlecenie.Load(@"C:\Users\kkure\source\repos\XMLParser\Zlecenie_T2202431_6.4.2022_ZAM00058.xml");
+            XmlNodeList xmlItems = zlecenie.DocumentElement.SelectNodes("/document_data/document_items/item");
+            var item_number = "";
+            string item_quantity = "";
+            string document_number = "";
+            foreach (XmlNode xmlNode in xmlItems)
+            {
+                item_number = xmlNode.SelectSingleNode("item_number").InnerText;
+                document_number = xmlNode.SelectSingleNode("document_number").InnerText;
+                item_quantity = xmlNode.SelectSingleNode("item_quantity").InnerText;
+                Console.WriteLine("| " + item_number + " | " + document_number + " | " + item_quantity + " | ");
+            }
+
+            XmlNodeList xmlDetails = zlecenie.DocumentElement.SelectNodes("/document_data/document_items/item/matlist/glass_products/g_rect");
+            string product_des = "", glasswidth = "", glassheight = "";
+            foreach (XmlNode xmlNode in xmlDetails)
+            {
+                product_des = xmlNode.SelectSingleNode("product_des").InnerText;
+                glasswidth = xmlNode.SelectSingleNode("glasswidth").InnerText;
+                glassheight = xmlNode.SelectSingleNode("glassheight").InnerText;
+                Console.WriteLine(product_des + glasswidth + glassheight);
+            }
+
+            Console.WriteLine("| " + item_number + " | " + document_number + " | " + item_quantity + " | " + product_des + " | " + glasswidth + " | " + glassheight);
+
+
+            /*
             XDocument xml = XDocument.Load(@"C:\Users\kkure\source\repos\XMLParser\Zlecenie_T2202431_6.4.2022_ZAM00058.xml");
 
             IEnumerable<XElement> xElements = xml.Descendants("document_number");
@@ -91,6 +133,7 @@ namespace XMLParser
             {
                 Console.WriteLine("Podsumowanie: " + element.Value);
             }
+            */
         }
     }
 }
