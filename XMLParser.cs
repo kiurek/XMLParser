@@ -27,29 +27,31 @@ namespace XMLParser
 
             XmlDocument zlecenie = new XmlDocument();
             zlecenie.Load(@"C:\Users\kkure\source\repos\XMLParser\Zlecenie_T2202431_6.4.2022_ZAM00058.xml");
-            XmlNodeList xmlItems = zlecenie.DocumentElement.SelectNodes("/document_data/document_items/item");
-            var item_number = "";
-            string item_quantity = "";
-            string document_number = "";
-            foreach (XmlNode xmlNode in xmlItems)
+            foreach (XmlNode node in zlecenie.ChildNodes)
             {
-                item_number = xmlNode.SelectSingleNode("item_number").InnerText;
-                document_number = xmlNode.SelectSingleNode("document_number").InnerText;
-                item_quantity = xmlNode.SelectSingleNode("item_quantity").InnerText;
-                Console.WriteLine("| " + item_number + " | " + document_number + " | " + item_quantity + " | ");
-            }
+                XmlNodeList xmlItems = zlecenie.SelectNodes("/document_data/document_items/item");
+                string item_number = "", document_number = "", item_quantity = "";
+                foreach (XmlNode xmlNode in xmlItems)
+                {
+                    item_number = xmlNode.SelectSingleNode("item_number").InnerText;
+                    document_number = xmlNode.SelectSingleNode("document_number").InnerText;
+                    item_quantity = xmlNode.SelectSingleNode("item_quantity").InnerText;
+                    //Console.WriteLine("| " + item_number + " | " + document_number + " | " + item_quantity + " | ");
+                }
 
-            XmlNodeList xmlDetails = zlecenie.DocumentElement.SelectNodes("/document_data/document_items/item/matlist/glass_products/g_rect");
-            string product_des = "", glasswidth = "", glassheight = "";
-            foreach (XmlNode xmlNode in xmlDetails)
-            {
-                product_des = xmlNode.SelectSingleNode("product_des").InnerText;
-                glasswidth = xmlNode.SelectSingleNode("glasswidth").InnerText;
-                glassheight = xmlNode.SelectSingleNode("glassheight").InnerText;
-                Console.WriteLine(product_des + glasswidth + glassheight);
+                XmlNodeList xmlDetails = zlecenie.SelectNodes("/document_data/document_items/item/matlist/glass_products/g_rect");
+                string product_des = "", glasswidth = "", glassheight = "", product_thickness = "";
+                foreach (XmlNode xmlNode in xmlDetails)
+                {
+                    product_des = xmlNode["product_des"].InnerText;
+                    glasswidth = xmlNode["glasswidth"].InnerText;
+                    glassheight = xmlNode["glassheight"].InnerText;
+                    product_thickness = xmlNode["product_thickness"].InnerText;
+                    //Console.WriteLine("| " + product_des + " | " + glasswidth + " | " + glassheight + " | " + product_thickness);
+                }
+                Console.WriteLine("| " + item_number + " | " + document_number + " | " + item_quantity + " | " + product_des + " | " + glasswidth + " | " + glassheight + " | " + product_thickness);
             }
-
-            Console.WriteLine("| " + item_number + " | " + document_number + " | " + item_quantity + " | " + product_des + " | " + glasswidth + " | " + glassheight);
+       
 
 
             /*
