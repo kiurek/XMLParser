@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Xml;
 using System.Xml.Linq;
+using System.Xml.Serialization;
 
 namespace XMLParser
 {
@@ -25,10 +27,12 @@ namespace XMLParser
                 }
             */
 
+            
             XmlDocument zlecenie = new XmlDocument();
             zlecenie.Load(@"C:\Users\kkure\source\repos\XMLParser\Zlecenie_T2202431_6.4.2022_ZAM00058.xml");
-            foreach (XmlNode node in zlecenie.ChildNodes)
-            {
+            
+            //foreach (XmlNode node in zlecenie.ChildNodes)
+            //{
                 XmlNodeList xmlItems = zlecenie.SelectNodes("/document_data/document_items/item");
                 string item_number = "", document_number = "", item_quantity = "";
                 foreach (XmlNode xmlNode in xmlItems)
@@ -36,26 +40,47 @@ namespace XMLParser
                     item_number = xmlNode.SelectSingleNode("item_number").InnerText;
                     document_number = xmlNode.SelectSingleNode("document_number").InnerText;
                     item_quantity = xmlNode.SelectSingleNode("item_quantity").InnerText;
-                    //Console.WriteLine("| " + item_number + " | " + document_number + " | " + item_quantity + " | ");
+                    Console.WriteLine("| " + item_number + " | " + document_number + " | " + item_quantity + " | ");
                 }
 
                 XmlNodeList xmlDetails = zlecenie.SelectNodes("/document_data/document_items/item/matlist/glass_products/g_rect");
                 string product_des = "", glasswidth = "", glassheight = "", product_thickness = "";
                 foreach (XmlNode xmlNode in xmlDetails)
                 {
-                    product_des = xmlNode["product_des"].InnerText;
-                    glasswidth = xmlNode["glasswidth"].InnerText;
-                    glassheight = xmlNode["glassheight"].InnerText;
-                    product_thickness = xmlNode["product_thickness"].InnerText;
-                    //Console.WriteLine("| " + product_des + " | " + glasswidth + " | " + glassheight + " | " + product_thickness);
+                    product_des = xmlNode.SelectSingleNode("product_des").InnerText;
+                    glasswidth = xmlNode.SelectSingleNode("glasswidth").InnerText;
+                    glassheight = xmlNode.SelectSingleNode("glassheight").InnerText;
+                    product_thickness = xmlNode.SelectSingleNode("product_thickness").InnerText;
+                    Console.WriteLine("| " + product_des + " | " + glasswidth + " | " + glassheight + " | " + product_thickness + " | ");
                 }
-                Console.WriteLine("| " + item_number + " | " + document_number + " | " + item_quantity + " | " + product_des + " | " + glasswidth + " | " + glassheight + " | " + product_thickness);
-            }
-       
+
+                XmlNodeList xmlGlass = zlecenie.SelectNodes("/document_data/document_items/item/matlist/glass_products/g_rect/edge_seal/spacer_colour");
+                string spacer_colour = "";
+                foreach (XmlNode xmlNode in xmlGlass)
+                {
+                    spacer_colour = xmlNode.SelectSingleNode("des").InnerText;
+                    Console.WriteLine(" " + spacer_colour);
+                }
+
+                XmlNodeList xmlColour = zlecenie.SelectNodes("/document_data/document_items/item/matlist/glass_products/g_rect/pane_structure/pane");
+                string colour = "";
+                foreach (XmlNode xmlNode in xmlColour)
+                {   
+                    colour = xmlNode.SelectSingleNode("key").InnerText;
+                    Console.WriteLine(" " + colour);
+                }
+
+
+            //Console.WriteLine("| " + item_number + " | " + document_number + " | " + item_quantity + " | " + product_des + " | " + glasswidth + " | " + glassheight + " | " + product_thickness);
+            //}
+
+
 
 
             /*
             XDocument xml = XDocument.Load(@"C:\Users\kkure\source\repos\XMLParser\Zlecenie_T2202431_6.4.2022_ZAM00058.xml");
+
+            
 
             IEnumerable<XElement> xElements = xml.Descendants("document_number");
 
@@ -72,8 +97,6 @@ namespace XMLParser
             IEnumerable<XElement> xElements6 = xml.Descendants("pane_structure").Descendants("pane").Descendants("key");
 
             IEnumerable<XElement> xElements7 = xml.Descendants("spacer_colour").Descendants("key");
-
-            IEnumerable<XElement> xElements8 = xml.Descendants("order_text");
 
             foreach (XElement element in xElements)
             {
@@ -127,13 +150,6 @@ namespace XMLParser
             foreach (XElement element in xElements7)
             {
                 Console.WriteLine("Kolor szkła: " + element.Value);
-            }
-
-            Console.WriteLine();
-
-            foreach (XElement element in xElements8)
-            {
-                Console.WriteLine("Podsumowanie: " + element.Value);
             }
             */
         }
