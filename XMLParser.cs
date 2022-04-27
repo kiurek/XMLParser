@@ -11,39 +11,58 @@ namespace XMLParser
 {
     public class XMLParser
     {
+
         public static void ZlecenieXDocumentParse()
         {            
             XmlDocument zlecenie = new XmlDocument();
-            zlecenie.Load(@"C:\Users\Kubiś\Source\Repos\kiurek\XMLParser\Zlecenie_T2202431_6.4.2022_ZAM00058.xml");
+            zlecenie.Load(@"C:\Users\kkure\source\repos\XMLParser\Zlecenie_T2202431_6.4.2022_ZAM00058.xml");
             
+            List<string> item_number = new List<string>();
+            List<string> document_number = new List<string>();
+            List<string> item_quantity = new List<string>();
+            List<string> product_des = new List<string>();
+            List<string> glasswidth = new List<string>();
+            List<string> glassheight = new List<string>();
+            List<string> product_thickness = new List<string>();
+            List<string> spacer_colour = new List<string>();
+            List<string> colour = new List<string>();
+            List<string> order_text = new List<string>();
+
             XmlNodeList xmlItems = zlecenie.SelectNodes("/document_data/document_items/item");
-            string item_number = "", document_number = "", item_quantity = "", product_des = "", glasswidth = "", glassheight = "", product_thickness = "", spacer_colour = "", colour = "";
             foreach (XmlNode xmlNode in xmlItems)
             {
-                item_number = xmlNode.SelectSingleNode("item_number").InnerText;
-                document_number = xmlNode.SelectSingleNode("document_number").InnerText;
-                item_quantity = xmlNode.SelectSingleNode("item_quantity").InnerText;
+                item_number.Add(xmlNode.SelectSingleNode("item_number").InnerText);
+                document_number.Add(xmlNode.SelectSingleNode("document_number").InnerText);
+                item_quantity.Add(xmlNode.SelectSingleNode("item_quantity").InnerText);
+            }
 
-                    XmlNodeList xmlDetails = zlecenie.SelectNodes("/document_data/document_items/item/matlist/glass_products/g_rect");
-                    foreach (XmlNode xmlNode1 in xmlDetails)
-                    {
-                        product_des = xmlNode1.SelectSingleNode("product_des").InnerText;
-                        glasswidth = xmlNode1.SelectSingleNode("glasswidth").InnerText;
-                        glassheight = xmlNode1.SelectSingleNode("glassheight").InnerText;
-                        product_thickness = xmlNode1.SelectSingleNode("product_thickness").InnerText;
+            XmlNodeList xmlDetails = zlecenie.DocumentElement.SelectNodes("/document_data/document_items/item/matlist/glass_products/g_rect");
+            foreach (XmlNode xmlNode in xmlDetails)
+            {
+                product_des.Add(xmlNode.SelectSingleNode("product_des").InnerText);
+                glasswidth.Add(xmlNode.SelectSingleNode("glasswidth").InnerText);
+                glassheight.Add(xmlNode.SelectSingleNode("glassheight").InnerText);
+                product_thickness.Add(xmlNode.SelectSingleNode("product_thickness").InnerText);
+                order_text.Add(xmlNode.SelectSingleNode("order_text").InnerText);
+            }
 
-                            XmlNodeList xmlColour = zlecenie.SelectNodes("/document_data/document_items/item/matlist/glass_products/g_rect/pane_structure/pane");
-                            foreach (XmlNode xmlNode3 in xmlColour)
-                            {
-                                colour = xmlNode3.SelectSingleNode("key").InnerText;
-                            }
-                                XmlNodeList xmlGlass = zlecenie.SelectNodes("/document_data/document_items/item/matlist/glass_products/g_rect/edge_seal/spacer_colour");
-                                foreach (XmlNode xmlNode2 in xmlGlass)
-                                {
-                                    spacer_colour = xmlNode2.SelectSingleNode("des").InnerText;
-                                }
-                    }
-            Console.WriteLine("| " + item_number + " | " + document_number + " | " + item_quantity + " | " + product_des + " | " + glasswidth + " | " + glassheight + " | " + product_thickness + " | " + colour + " | " + spacer_colour);
+            XmlNodeList xmlGlass = zlecenie.SelectNodes("/document_data/document_items/item/matlist/glass_products/g_rect/edge_seal/spacer_colour");
+            foreach (XmlNode xmlNode in xmlGlass)
+            {
+                spacer_colour.Add(xmlNode.SelectSingleNode("key").InnerText);
+            }
+
+            XmlNodeList xmlColours = zlecenie.SelectNodes("/document_data/document_items/item/matlist/glass_products/g_rect/pane_structure/pane");
+            foreach (XmlNode xmlNode in xmlColours)
+            {
+                colour.Add(xmlNode.SelectSingleNode("key").InnerText);
+                //for (int i = 0; i < colour.Count(); i++) ;
+            }
+
+            for (int i = 0, j = 1, counter = 0; i < item_number.Count; counter += 2, j = counter + 1, i++)
+            {
+                Console.WriteLine("| " + item_number[i] + " | " + document_number[i] + " | " + item_quantity[i] + " | " + product_des[i] + " | " + glasswidth[i] + " | " + glassheight[i] + " | " + product_thickness[i] + " | " + spacer_colour[i] + " | " + colour[counter] + colour[j]);
+                
             }
         }
     }
