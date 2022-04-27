@@ -31,8 +31,8 @@ namespace XMLParser
             XmlDocument zlecenie = new XmlDocument();
             zlecenie.Load(@"C:\Users\kkure\source\repos\XMLParser\Zlecenie_T2202431_6.4.2022_ZAM00058.xml");
             
-            //foreach (XmlNode node in zlecenie.ChildNodes)
-            //{
+            foreach (XmlNode node in zlecenie.ChildNodes)
+            {
                 XmlNodeList xmlItems = zlecenie.SelectNodes("/document_data/document_items/item");
                 string item_number = "", document_number = "", item_quantity = "";
                 foreach (XmlNode xmlNode in xmlItems)
@@ -40,7 +40,7 @@ namespace XMLParser
                     item_number = xmlNode.SelectSingleNode("item_number").InnerText;
                     document_number = xmlNode.SelectSingleNode("document_number").InnerText;
                     item_quantity = xmlNode.SelectSingleNode("item_quantity").InnerText;
-                    Console.WriteLine("| " + item_number + " | " + document_number + " | " + item_quantity + " | ");
+                    //Console.WriteLine("| " + item_number + " | " + document_number + " | " + item_quantity + " | ");
                 }
 
                 XmlNodeList xmlDetails = zlecenie.SelectNodes("/document_data/document_items/item/matlist/glass_products/g_rect");
@@ -51,7 +51,7 @@ namespace XMLParser
                     glasswidth = xmlNode.SelectSingleNode("glasswidth").InnerText;
                     glassheight = xmlNode.SelectSingleNode("glassheight").InnerText;
                     product_thickness = xmlNode.SelectSingleNode("product_thickness").InnerText;
-                    Console.WriteLine("| " + product_des + " | " + glasswidth + " | " + glassheight + " | " + product_thickness + " | ");
+                    //Console.WriteLine("| " + product_des + " | " + glasswidth + " | " + glassheight + " | " + product_thickness + " | ");
                 }
 
                 XmlNodeList xmlGlass = zlecenie.SelectNodes("/document_data/document_items/item/matlist/glass_products/g_rect/edge_seal/spacer_colour");
@@ -59,7 +59,7 @@ namespace XMLParser
                 foreach (XmlNode xmlNode in xmlGlass)
                 {
                     spacer_colour = xmlNode.SelectSingleNode("des").InnerText;
-                    Console.WriteLine(" " + spacer_colour);
+                    //Console.WriteLine(" " + spacer_colour);
                 }
 
                 XmlNodeList xmlColour = zlecenie.SelectNodes("/document_data/document_items/item/matlist/glass_products/g_rect/pane_structure/pane");
@@ -67,12 +67,12 @@ namespace XMLParser
                 foreach (XmlNode xmlNode in xmlColour)
                 {   
                     colour = xmlNode.SelectSingleNode("key").InnerText;
-                    Console.WriteLine(" " + colour);
+                    //Console.WriteLine(" " + colour);
                 }
 
 
-            //Console.WriteLine("| " + item_number + " | " + document_number + " | " + item_quantity + " | " + product_des + " | " + glasswidth + " | " + glassheight + " | " + product_thickness);
-            //}
+            Console.WriteLine("| " + item_number + " | " + document_number + " | " + item_quantity + " | " + product_des + " | " + glasswidth + " | " + glassheight + " | " + product_thickness);
+            }
 
 
 
