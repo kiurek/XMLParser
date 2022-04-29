@@ -15,7 +15,7 @@ namespace XMLParser
         public static void ZlecenieXDocumentParse()
         {            
             XmlDocument zlecenie = new XmlDocument();
-            zlecenie.Load(@"C:\Users\kkure\source\repos\XMLParser\Zlecenie_T2202431_6.4.2022_ZAM00058.xml");
+            zlecenie.Load(@"C:\Users\Kubiś\Source\Repos\kiurek\XMLParser\Zlecenie_T2202431_6.4.2022_ZAM00058.xml");
             
             List<string> item_number = new List<string>();
             List<string> document_number = new List<string>();
@@ -26,7 +26,7 @@ namespace XMLParser
             List<string> product_thickness = new List<string>();
             List<string> spacer_colour = new List<string>();
             List<string> colour = new List<string>();
-            List<string> order_text = new List<string>();
+            List<string> record_glasstext1 = new List<string>();
 
             XmlNodeList xmlItems = zlecenie.SelectNodes("/document_data/document_items/item");
             foreach (XmlNode xmlNode in xmlItems)
@@ -43,7 +43,8 @@ namespace XMLParser
                 glasswidth.Add(xmlNode.SelectSingleNode("glasswidth").InnerText);
                 glassheight.Add(xmlNode.SelectSingleNode("glassheight").InnerText);
                 product_thickness.Add(xmlNode.SelectSingleNode("product_thickness").InnerText);
-                order_text.Add(xmlNode.SelectSingleNode("order_text").InnerText);
+                record_glasstext1.Add(xmlNode.SelectSingleNode("record_glasstext1").InnerText);
+                
             }
 
             XmlNodeList xmlGlass = zlecenie.SelectNodes("/document_data/document_items/item/matlist/glass_products/g_rect/edge_seal/spacer_colour");
@@ -56,12 +57,11 @@ namespace XMLParser
             foreach (XmlNode xmlNode in xmlColours)
             {
                 colour.Add(xmlNode.SelectSingleNode("key").InnerText);
-                //for (int i = 0; i < colour.Count(); i++) ;
             }
 
             for (int i = 0, j = 1, counter = 0; i < item_number.Count; counter += 2, j = counter + 1, i++)
             {
-                Console.WriteLine("| " + item_number[i] + " | " + document_number[i] + " | " + item_quantity[i] + " | " + product_des[i] + " | " + glasswidth[i] + " | " + glassheight[i] + " | " + product_thickness[i] + " | " + spacer_colour[i] + " | " + colour[counter] + colour[j]);
+                Console.WriteLine("| " + item_number[i] + " | " + document_number[i] + " | " + item_quantity[i] + " | " + product_des[i] + " | " + glasswidth[i] + " | " + glassheight[i] + " | " + product_thickness[i] + " | " + spacer_colour[i] + " | " + colour[counter] + colour[j] + " | " + record_glasstext1[i]);
                 
             }
         }
